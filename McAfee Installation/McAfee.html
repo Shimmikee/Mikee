@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<title>McAfee Installation</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {
+  font-family: Verdana, sans-serif; margin:0;
+  background-image: url("McAfee/background.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 14px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.box {
+	display: block;
+	width: 1000px;
+	height: 50px;
+	opacity: 0.9;
+	background-color: #77BFC7;
+}
+
+.boxTitle {
+	display: block;
+	width: 1000px;
+	height: 50px;
+	opacity: 0.9;
+	background-color: #77BFC7;
+	margin: auto;
+}
+
+div.navigation
+{
+  position: fixed;
+  margin-left: -10px;
+  display: block;
+  padding: 10px;
+  width: 100px;
+  height: 45px;
+  border: 1px solid #008080;
+  text-align: right;
+  background-color: #FFFFFF;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+div.navigation a
+{
+  text-decoration: none;
+  color: #008080;
+}
+
+div.navigation:hover
+{
+  padding-left: 50px;
+  border: 1px solid #FFFFFF;
+  background-color: #FFF5EE;
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="navigation"><a href="../index.html">Menu</a></div>
+
+<div class="boxTitle">
+	<p style="text-align:center; color:#FFFFFF; padding:15px;">STEP BY STEP INSTALLATION OF MCAFEE IN WINDOWS</p>
+</div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">0 / 30</div>
+  <img src="McAfee\McAfee-Main.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">MCAFEE INSTALLATION</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 30</div>
+  <img src="McAfee\Windows-Defender-0.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 1 - Make sure that Windows Defender is disabled.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 30</div>
+  <img src="McAfee\Windows-Defender-1.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 2 - Click "Settings" and toggle off "Limited Periodic Scanning".</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 30</div>
+  <img src="McAfee\McAfee-Agent.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 3 - McAfee Agent Installation</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 30</div>
+  <img src="McAfee\McAfee-0.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 4 - Run "McAfeeSmartInstall" as administrator.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 30</div>
+  <img src="McAfee\McAfee-1.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 5 - Click "Run" if prompted by a Security Warning.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 30</div>
+  <img src="McAfee\McAfee-2.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 6 - Wait for the installation process to finish.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 30</div>
+  <img src="McAfee\McAfee-ENS.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">McAfee ENS Installation</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 30</div>
+  <img src="McAfee\ENS-1.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 1 - Run "setupCC.exe" until the McAfee icon disappears from the Windows system tray.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9 / 30</div>
+  <img src="McAfee\ENS-2.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 2 - Install "McAfee_Common_x64" ("McAfee_Common_x86" if running a 32Bit-Windows).</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">10 / 30</div>
+  <img src="McAfee\ENS-3.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 3 - Click "Next" when McAfee ENS InstallSheild Wizard pops up.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">11 / 30</div>
+  <img src="McAfee\ENS-4.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 4 - Tick the option for "Modify", then click "Next".</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">12 / 30</div>
+  <img src="McAfee\ENS-5.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 5 - Click "Next" in Custom Setup.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">13 / 30</div>
+  <img src="McAfee\ENS-6.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 6 - Click "Install" to begin the installation.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">14 / 30</div>
+  <img src="McAfee\ENS-7.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 7 - Wait for the installation process to finish.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">15 / 30</div>
+  <img src="McAfee\ENS-8.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 8 - Click "Finish" to exit the InstallSheild Wizard.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">16 / 30</div>
+  <img src="McAfee\TP-0.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 1 - Run "setupTP.exe" to install McAfee ENS Threat Prevention. Make sure to check and enforce policies before installing.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">17 / 30</div>
+  <img src="McAfee\TP-1.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 2 - Install "McAfee_Threat_Prevention_x64" ("McAfee_Threat_Prevention_x86" if running a 32Bit-Windows).</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">18 / 30</div>
+  <img src="McAfee\TP-2.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 3 - Click "Next" when McAfee ENS Threat Prevention InstallSheild Wizard pops up</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">19 / 30</div>
+  <img src="McAfee\TP-3.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 4 - Tick the option for "Modify", then click "Next".</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">20 / 30</div>
+  <img src="McAfee\TP-4.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 5 - Click "Next" in Custom Setup.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">21 / 30</div>
+  <img src="McAfee\TP-5.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 6 - Click "Install" to begin the installation.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">22 / 30</div>
+  <img src="McAfee\TP-6.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 7 - Wait for the installation process to finish.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">23 / 30</div>
+  <img src="McAfee\TP-7.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 8 - Click "Finish" to exit the InstallSheild Wizard.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">24 / 30</div>
+  <img src="McAfee\McAfee-DLP.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">McAfee DLP Installation</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">25 / 30</div>
+  <img src="McAfee\DLP-0.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 1 - Run "DLPAgentInstaller.x64" as administrator. Uninstall previous versions of DLP before installing newer versions.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">26 / 30</div>
+  <img src="McAfee\DLP-1.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 2 - Click "Run" if prompted by a Security Warning.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">27 / 30</div>
+  <img src="McAfee\DLP-2.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">Step 3 - Wait for the installation process to finish.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">28 / 30</div>
+  <img src="McAfee\McAfee-3.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">To check current versions of McAfee, right click the McAfee icon from the system tray and click "About".</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">29 / 30</div>
+  <img src="McAfee\McAfee-4.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">To check security status of McAfee, right click the McAfee icon from the system tray and click "View Security Status".</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">30 / 30</div>
+  <img src="McAfee\McAfee-5.jpg" style="width:100%;">
+  <div class="box"></div>
+  <div class="text">To check and enforce policies of McAfee, right click the McAfee icon from the system tray and click "McAfee Agent Status Monitor".</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(0)"></span> 
+	<span class="dot" onclick="currentSlide(1)"></span> 
+	<span class="dot" onclick="currentSlide(2)"></span> 
+	<span class="dot" onclick="currentSlide(3)"></span> 
+	<span class="dot" onclick="currentSlide(4)"></span>
+	<span class="dot" onclick="currentSlide(5)"></span>
+	<span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+	<span class="dot" onclick="currentSlide(8)"></span>
+	<span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span> 
+	<span class="dot" onclick="currentSlide(11)"></span> 
+	<span class="dot" onclick="currentSlide(12)"></span> 
+	<span class="dot" onclick="currentSlide(13)"></span> 
+	<span class="dot" onclick="currentSlide(14)"></span>
+	<span class="dot" onclick="currentSlide(15)"></span>
+	<span class="dot" onclick="currentSlide(16)"></span>
+  <span class="dot" onclick="currentSlide(17)"></span>
+	<span class="dot" onclick="currentSlide(18)"></span>
+	<span class="dot" onclick="currentSlide(19)"></span>
+	<span class="dot" onclick="currentSlide(20)"></span> 
+	<span class="dot" onclick="currentSlide(21)"></span> 
+	<span class="dot" onclick="currentSlide(22)"></span> 
+	<span class="dot" onclick="currentSlide(23)"></span> 
+	<span class="dot" onclick="currentSlide(24)"></span>
+	<span class="dot" onclick="currentSlide(25)"></span>
+	<span class="dot" onclick="currentSlide(26)"></span>
+  <span class="dot" onclick="currentSlide(27)"></span>
+	<span class="dot" onclick="currentSlide(28)"></span>
+	<span class="dot" onclick="currentSlide(29)"></span>
+	<span class="dot" onclick="currentSlide(30)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>
