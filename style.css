@@ -8,7 +8,7 @@
 body 
 {
     font-family: Verdana, sans-serif; margin:0;
-    background-image: url("Win10/background.jpg");
+    background-image: url("Manuals/background.jpg");
     background-size: cover;
     background-repeat:no-repeat;
 }
@@ -130,8 +130,9 @@ div.navigation
   position: fixed;
   margin-left: -10px;
   display: block;
+  margin-top: 20px;
   padding: 10px;
-  width: 100px;
+  width: 200px;
   height: 45px;
   border: 1px solid #008080;
   text-align: right;
