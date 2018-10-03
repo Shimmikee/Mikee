@@ -7,7 +7,7 @@
 
 /* Home Page / Index Page */
 
-div.index-index-navigation
+div.index-navigation
 {
 	position: fixed;
 	margin-top: 380px;
@@ -23,13 +23,13 @@ div.index-index-navigation
 	opacity: 0.9;
 }
 
-div.index-index-navigation a
+div.index-navigation a
 {
 	text-decoration: none;
 	color: #008080;
 }
 
-div.index-index-navigation:hover
+div.index-navigation:hover
 {
 	padding-left: 40px;
 	border: 1px solid #FFFFFF;
