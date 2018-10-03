@@ -5,6 +5,106 @@
     box-sizing: border-box;
 }
 
+/* Home Page / Index Page */
+
+div.index-index-navigation
+{
+	position: fixed;
+	margin-top: 380px;
+	margin-left: -10px;
+	display: block;
+	padding: 10px;
+	width: 200px;
+	height: 20px;
+	border: 1px solid #008080;
+	text-align: right;
+	background-color: #FFFFFF;
+	z-index: 1;
+	opacity: 0.9;
+}
+
+div.index-index-navigation a
+{
+	text-decoration: none;
+	color: #008080;
+}
+
+div.index-index-navigation:hover
+{
+	padding-left: 40px;
+	border: 1px solid #FFFFFF;
+	background-color: #FFF5EE;
+}
+
+div.titleBlock
+{
+	display: block;
+	background-color: #EDC9AF;
+	position: relative;
+	width: 1600px;
+	height: 80px;
+	margin-top: -140px;
+	margin-left: -10px;
+	opacity: 0.9;
+}
+
+div.backgroundBlock1
+{
+	display: block;
+	background-color: #FFF5EE;
+	position: relative;
+	width: 1500px;
+	height: 80px;
+	margin-top: 40px;
+	margin-right: -10px;
+	margin-left: 420px;
+	opacity: 0.5;
+}
+
+div.backgroundBlock2
+{
+	display: block;
+	background-color: #008080;
+	position: relative;
+	width: 1000px;
+	height: 80px;
+	margin-top: 100px;
+	margin-right: -10px;
+	margin-left: 920px;
+	opacity: 0.5;
+}
+
+div.headertitle
+{
+	position: relative;
+	font-size: 72px;
+	color: #FFFFFF;
+	margin-top: -87px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFF5EE;
+    color: #EDC9AF;
+    text-align: center;
+    height: 2vh;
+    padding:1em;
+}
+
+.titleBlock img{
+	padding: 12px;
+	width: 50%;
+}
+
+/* End Index Page */
+
+/* Installation Page */
+
 body 
 {
     font-family: Verdana, sans-serif; margin:0;
@@ -12,6 +112,7 @@ body
     background-size: cover;
     background-repeat:no-repeat;
 }
+
 
 .mySlides {display: none}
 img {vertical-align: middle;}
@@ -154,3 +255,5 @@ div.navigation:hover
   background-color: #FFF5EE;
 
 }
+
+/* End Installation Page */
