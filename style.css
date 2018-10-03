@@ -7,14 +7,15 @@
 
 /* Home Page / Index Page */
 
-div.index-flex
+.index-flex
 {
   display: flex;
+  justify-content: flex-start;
 }
 
 div.index-navigation
 {
-	position: fixed;
+  /* position: fixed; */
 	margin-top: 380px;
 	margin-left: -10px;
 	display: block;
