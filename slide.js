@@ -19,17 +19,7 @@ function rightArrowPressed(n)
 //   showSlides(slideIndex = n);
 // }
 
-document.onkeydown = function(evt){
-  evt = evt || window.event;
-  switch(evt.keyCode){
-    case 37:
-      leftArrowPressed();
-      break;
-    case 39:
-      rightArrowPressed();
-      break;
-  }
-}
+
 
 function showSlides(n) {
   var i;
@@ -45,4 +35,16 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
+
+  document.onkeydown = function(evt){
+    evt = evt || window.event;
+    switch(evt.keyCode){
+      case 37:
+        leftArrowPressed();
+        break;
+      case 39:
+        rightArrowPressed();
+        break;
+    }
+  }
 }
