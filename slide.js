@@ -1,12 +1,34 @@
 var slideIndex = 1;
 showSlides(slideIndex);
 
-function plusSlides(n) {
+function leftArrowPressed(n)
+{
   showSlides(slideIndex += n);
 }
 
-function currentSlide(n) {
+function rightArrowPressed(n)
+{
   showSlides(slideIndex = n);
+}
+
+// function plusSlides(n) {
+//   showSlides(slideIndex += n);
+// }
+
+// function currentSlide(n) {
+//   showSlides(slideIndex = n);
+// }
+
+document.onkeydown = function(evt){
+  evt = evt || window.event;
+  switch(evt.keyCode){
+    case 37:
+      leftArrowPressed();
+      break;
+    case 39:
+      rightArrowPressed();
+      break;
+  }
 }
 
 function showSlides(n) {
