@@ -1,23 +1,23 @@
 var slideIndex = 1;
 showSlides(slideIndex);
 
-function leftArrowPressed(n)
-{
-  showSlides(slideIndex += n);
-}
-
-function rightArrowPressed(n)
-{
-  showSlides(slideIndex = n);
-}
-
-// function plusSlides(n) {
+// function leftArrowPressed(n)
+// {
 //   showSlides(slideIndex += n);
 // }
 
-// function currentSlide(n) {
+// function rightArrowPressed(n)
+// {
 //   showSlides(slideIndex = n);
 // }
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
 
 
@@ -36,15 +36,15 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 
-  document.onkeydown = function(evt){
-    evt = evt || window.event;
-    switch(evt.keyCode){
-      case 37:
-        leftArrowPressed();
-        break;
-      case 39:
-        rightArrowPressed();
-        break;
-    }
-  }
+  // document.onkeydown = function(evt){
+  //   evt = evt || window.event;
+  //   switch(evt.keyCode){
+  //     case 37:
+  //       leftArrowPressed();
+  //       break;
+  //     case 39:
+  //       rightArrowPressed();
+  //       break;
+  //   }
+  // }
 }
